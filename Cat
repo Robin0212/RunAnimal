@@ -1,0 +1,12 @@
+package RunAnimal;
+class Cat extends Animal{
+    public void eat(){
+        System.out.println("Cats love to eat fish.");
+    }
+    public void sleep(){
+        System.out.println("Sleep for almost whole day");
+    }
+    public void makeSound(){
+        System.out.println("Meow meow!");
+    }
+}
